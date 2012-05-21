@@ -1,6 +1,6 @@
-# Underscore::String::Rails
+# underscore-string-rails
 
-TODO: Write a gem description
+This includes the underscore string library in your application
 
 ## Installation
 
