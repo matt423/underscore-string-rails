@@ -1,6 +1,6 @@
 # underscore-string-rails
 
-This includes the underscore string library in your application
+This includes the [underscore.string](https://github.com/epeli/underscore.string) library in your application
 
 ## Installation
 
@@ -8,9 +8,13 @@ Add this line to your application's Gemfile:
 
     gem 'underscore-string-rails'
 
+Optionally add a dependency on [underscore-rails](https://github.com/rweng/underscore-rails):
+
+    gem 'underscore-rails'
+
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
@@ -18,21 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-Optionally include underscore in your project:
-
-`//= require underscore`
-
-Minified version:
-
-`//= require underscore-min`
-
-In your application.js manifest:
+In any JavaScript file:
 
 `//= require underscore.string`
 
-For minimal compressed version:
-
-`//= require underscore.string.min`
+It will be minified/uglified/etc. as part of the asset pipeline.
 
 ## Contributing
 
